@@ -30,13 +30,6 @@ random_int() {
     print int(min + rand() * (max - min + 1))
   }'
 }
-generate_random_in_range() {
-  local min=$1
-  local max=$2
-  local range=$((max - min + 1))
-  local random_int=$((DECIMAL % range + min))
-  echo "$random_int"
-}
 
 # Step 0. Generate clientId
 RANDOM_INT1=$(random_int 1721926800000 1722272400000 $SEED)

@@ -183,7 +183,7 @@ func run(ctx context.Context, config ConfigEntry, clientId string, clientToken s
 			line, _, err := reader.ReadLine()
 			if err != nil {
 				return err
-			} else if line[0] != 'y' && line[0] != 'Y' {
+			} else if len(line) != 0 && line[0] != 'y' && line[0] != 'Y' {
 				break
 			}
 		}

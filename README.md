@@ -12,27 +12,28 @@
 
 ## Использование
 
-Компиляция: `go build`
+### Сборка и запуск
 
-Запуск без компиляции: `go run .`
+Компиляция исполняемого файла: `go build`
 
-Параметры:
+Запуск из исходного кода: `go run .`
+
+### Параметры запуска
 
 ```
-  -app string
-        App name (one of BIKE|CUBE|CLONE|TRAIN|MERGE|TWERK)
-  -client-seed int
-        Random seed used when generating client ID
-  -token string
-        Client token (if available)
+--app string
+  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK)
+--client-seed int
+  Случайное значение для генерации клиентского ID
+--token string
+  Токен клиента (если доступен, иначе будет получен автоматически)
 ```
 
 <details>
-  <summary>Пример генерации кода</summary>
-  
-  Для генерации `BIKE` кода можно использовать следующую команду:
-  
-  `go run . -app BIKE -client-seed 177013`
+  <summary>Пример генерации промо-кода</summary>
+Чтобы сгенерировать код для игры BIKE без указания токена, выполните следующую команду:
+
+`go run . -app BIKE -client-seed 177013`
 </details>
 
 ## Отказ от ответственности

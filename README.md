@@ -12,6 +12,7 @@
 - Polysphere (`POLY`)
 - Mow and Trim (`TRIM`)
 - Mud Race (`RACE`)
+- Cafe Dash (`CAFE`)
 
 ## Использование
 
@@ -25,7 +26,7 @@
 
 ```
 --app string
-  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK)
+  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE)
 --client-seed int
   Случайное значение для генерации клиентского ID
 --token string

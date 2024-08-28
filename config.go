@@ -20,4 +20,5 @@ var Config = map[string]ConfigEntry{
 	"POLY":  {AppToken: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", PromoId: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"TRIM":  {AppToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", PromoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"RACE":  {AppToken: "8814a785-97fb-4177-9193-ca4180ff9da8", PromoId: "8814a785-97fb-4177-9193-ca4180ff9da8", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"CAFE":  {AppToken: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", PromoId: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", EventType: "5visitorsChecks", EventOrigin: "undefined", Sleep: 20 * time.Second},
 }

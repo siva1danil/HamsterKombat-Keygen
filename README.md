@@ -9,6 +9,9 @@
 - My Clone Army (`CLONE`)
 - Merge Away (`MERGE`)
 - Twerk Race (`TWERK`)
+- Polysphere (`POLY`)
+- Mow and Trim (`TRIM`)
+- Mud Race (`RACE`)
 
 ## Использование
 

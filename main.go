@@ -157,10 +157,14 @@ func run(ctx context.Context, config ConfigEntry, clientId string, clientToken s
 
 	for {
 		log.Info("Sleeping...")
+
+		timer := time.NewTimer(config.Sleep)
 		select {
-		case <-time.After(60 * time.Second):
+		case <-timer.C:
 		case <-ctx.Done():
 		}
+		timer.Stop()
+
 		if ctx.Err() != nil {
 			break
 		}

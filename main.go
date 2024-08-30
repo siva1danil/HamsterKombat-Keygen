@@ -198,7 +198,7 @@ func run(ctx context.Context, config ConfigEntry, clientId string, clientToken s
 
 func main() {
 	clientSeed := flag.Int("client-seed", 0, "Random seed used when generating client ID")
-	app := flag.String("app", "", "App name (one of BIKE|CUBE|CLONE|TRAIN|MERGE|TWERK|POLY|TRIM|RACE|CAFE)")
+	app := flag.String("app", "", "App name (one of BIKE|CUBE|CLONE|TRAIN|MERGE|TWERK|POLY|TRIM|RACE|CAFE|GANGS|ZOO)")
 	token := flag.String("token", "", "Client token (if available)")
 	flag.Parse()
 

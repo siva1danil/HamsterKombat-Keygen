@@ -21,4 +21,6 @@ var Config = map[string]ConfigEntry{
 	"TRIM":  {AppToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", PromoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"RACE":  {AppToken: "8814a785-97fb-4177-9193-ca4180ff9da8", PromoId: "8814a785-97fb-4177-9193-ca4180ff9da8", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"CAFE":  {AppToken: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", PromoId: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", EventType: "5visitorsChecks", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"GANGS": {AppToken: "b6de60a0-e030-48bb-a551-548372493523", PromoId: "c7821fa7-6632-482c-9635-2bd5798585f9", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"ZOO":   {AppToken: "b2436c89-e0aa-4aed-8046-9b0515e1c46b", PromoId: "b2436c89-e0aa-4aed-8046-9b0515e1c46b", EventType: "ZoopolisEvent", EventOrigin: "undefined", Sleep: 20 * time.Second},
 }

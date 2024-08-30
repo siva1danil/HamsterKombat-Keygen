@@ -13,6 +13,8 @@
 - Mow and Trim (`TRIM`)
 - Mud Race (`RACE`)
 - Cafe Dash (`CAFE`)
+- Gangs Wars (`GANGS`)
+- Zoopolis (`ZOO`)
 
 ## Использование
 
@@ -26,7 +28,7 @@
 
 ```
 --app string
-  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE)
+  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE | GANGS | ZOO)
 --client-seed int
   Случайное значение для генерации клиентского ID
 --token string

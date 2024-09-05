@@ -15,6 +15,8 @@
 - Cafe Dash (`CAFE`)
 - Gangs Wars (`GANGS`)
 - Zoopolis (`ZOO`)
+- Fluff Crusade (`FLUF`)
+- Tile Trio (`TILE`)
 
 ## Использование
 
@@ -28,7 +30,7 @@
 
 ```
 --app string
-  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE | GANGS | ZOO)
+  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE | GANGS | ZOO | FLUF | TILE)
 --client-seed int
   Случайное значение для генерации клиентского ID
 --token string

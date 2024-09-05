@@ -23,4 +23,6 @@ var Config = map[string]ConfigEntry{
 	"CAFE":  {AppToken: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", PromoId: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11", EventType: "5visitorsChecks", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"GANGS": {AppToken: "b6de60a0-e030-48bb-a551-548372493523", PromoId: "c7821fa7-6632-482c-9635-2bd5798585f9", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"ZOO":   {AppToken: "b2436c89-e0aa-4aed-8046-9b0515e1c46b", PromoId: "b2436c89-e0aa-4aed-8046-9b0515e1c46b", EventType: "ZoopolisEvent", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"FLUF":  {AppToken: "112887b0-a8af-4eb2-ac63-d82df78283d9", PromoId: "112887b0-a8af-4eb2-ac63-d82df78283d9", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"TILE":  {AppToken: "e68b39d2-4880-4a31-b3aa-0393e7df10c7", PromoId: "e68b39d2-4880-4a31-b3aa-0393e7df10c7", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 }

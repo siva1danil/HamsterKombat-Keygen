@@ -25,4 +25,5 @@ var Config = map[string]ConfigEntry{
 	"ZOO":   {AppToken: "b2436c89-e0aa-4aed-8046-9b0515e1c46b", PromoId: "b2436c89-e0aa-4aed-8046-9b0515e1c46b", EventType: "ZoopolisEvent", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"FLUF":  {AppToken: "112887b0-a8af-4eb2-ac63-d82df78283d9", PromoId: "112887b0-a8af-4eb2-ac63-d82df78283d9", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"TILE":  {AppToken: "e68b39d2-4880-4a31-b3aa-0393e7df10c7", PromoId: "e68b39d2-4880-4a31-b3aa-0393e7df10c7", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"STONE": {AppToken: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", PromoId: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 }

@@ -17,6 +17,7 @@
 - Zoopolis (`ZOO`)
 - Fluff Crusade (`FLUF`)
 - Tile Trio (`TILE`)
+- Stone Age (`AGE`)
 
 ## Использование
 
@@ -30,7 +31,7 @@
 
 ```
 --app string
-  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE | GANGS | ZOO | FLUF | TILE)
+  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE | GANGS | ZOO | FLUF | TILE | STONE)
 --client-seed int
   Случайное значение для генерации клиентского ID
 --token string

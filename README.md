@@ -18,6 +18,7 @@
 - Fluff Crusade (`FLUF`)
 - Tile Trio (`TILE`)
 - Stone Age (`AGE`)
+- Bouncemasters (`BOUNC`)
 
 ## Использование
 
@@ -31,7 +32,7 @@
 
 ```
 --app string
-  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE | GANGS | ZOO | FLUF | TILE | STONE)
+  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE | GANGS | ZOO | FLUF | TILE | STONE | BOUNC)
 --client-seed int
   Случайное значение для генерации клиентского ID
 --token string

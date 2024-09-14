@@ -12,6 +12,7 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
+	"sort"
 	"strings"
 	"time"
 
@@ -197,8 +198,15 @@ func run(ctx context.Context, config ConfigEntry, clientId string, clientToken s
 }
 
 func main() {
+	var keys []string
+	for k := range Config {
+		keys = append(keys, k)
+	}
+	sort.Strings(keys)
+	configKeys := strings.Join(keys, "|")
+
 	clientSeed := flag.Int("client-seed", 0, "Random seed used when generating client ID")
-	app := flag.String("app", "", "App name (one of BIKE|CUBE|CLONE|TRAIN|MERGE|TWERK|POLY|TRIM|RACE|CAFE|GANGS|ZOO|FLUF|TILE|STONE)")
+	app := flag.String("app", "", "App name ("+configKeys+")")
 	token := flag.String("token", "", "Client token (if available)")
 	flag.Parse()
 

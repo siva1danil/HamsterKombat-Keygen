@@ -19,6 +19,7 @@
 - Tile Trio (`TILE`)
 - Stone Age (`AGE`)
 - Bouncemasters (`BOUNC`)
+- Hide Cube (`HIDE`)
 
 ## Использование
 
@@ -32,7 +33,7 @@
 
 ```
 --app string
-  Название игры (доступные варианты: BIKE | CUBE | CLONE | TRAIN | MERGE | TWERK | POLY | TRIM | RACE | CAFE | GANGS | ZOO | FLUF | TILE | STONE | BOUNC)
+  Название игры (например, BIKE)
 --client-seed int
   Случайное значение для генерации клиентского ID
 --token string

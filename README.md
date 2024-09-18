@@ -20,6 +20,8 @@
 - Stone Age (`AGE`)
 - Bouncemasters (`BOUNC`)
 - Hide Cube (`HIDE`)
+- Count Masters (`COUNT`)
+- Pin Out Master (`PIN`)
 
 ## Использование
 

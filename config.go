@@ -28,4 +28,6 @@ var Config = map[string]ConfigEntry{
 	"STONE": {AppToken: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", PromoId: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"BOUNC": {AppToken: "bc72d3b9-8e91-4884-9c33-f72482f0db37", PromoId: "bc72d3b9-8e91-4884-9c33-f72482f0db37", EventType: "test", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"HIDE":  {AppToken: "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", PromoId: "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"PIN":   {AppToken: "d2378baf-d617-417a-9d99-d685824335f0", PromoId: "d2378baf-d617-417a-9d99-d685824335f0", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"COUNT": {AppToken: "4bdc17da-2601-449b-948e-f8c7bd376553", PromoId: "4bdc17da-2601-449b-948e-f8c7bd376553", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 }

@@ -188,7 +188,7 @@ func run(ctx context.Context, config ConfigEntry, clientId string, clientToken s
 			line, _, err := reader.ReadLine()
 			if err != nil {
 				return err
-			} else if len(line) != 0 && line[0] != 'y' && line[0] != 'Y' {
+			} else if len(line) == 0 || (line[0] != 'y' && line[0] != 'Y') {
 				break
 			}
 		}
@@ -214,7 +214,7 @@ func main() {
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
-	config, ok := Config[*app]
+	config, ok := Config[strings.ToLower(*app)]
 	if !ok {
 		flag.PrintDefaults()
 		os.Exit(1)

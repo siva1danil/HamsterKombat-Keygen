@@ -214,7 +214,8 @@ func main() {
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
-	config, ok := Config[strings.ToLower(*app)]
+	*app = strings.ToUpper(*app)
+	config, ok := Config[*app]
 	if !ok {
 		flag.PrintDefaults()
 		os.Exit(1)

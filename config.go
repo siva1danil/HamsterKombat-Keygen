@@ -30,4 +30,7 @@ var Config = map[string]ConfigEntry{
 	"HIDE":  {AppToken: "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", PromoId: "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"PIN":   {AppToken: "d2378baf-d617-417a-9d99-d685824335f0", PromoId: "d2378baf-d617-417a-9d99-d685824335f0", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
 	"COUNT": {AppToken: "4bdc17da-2601-449b-948e-f8c7bd376553", PromoId: "4bdc17da-2601-449b-948e-f8c7bd376553", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"FCTRY": {AppToken: "d02fc404-8985-4305-87d8-32bd4e66bb16", PromoId: "d02fc404-8985-4305-87d8-32bd4e66bb16", EventType: "HamsterGathred", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"WATER": {AppToken: "daab8f83-8ea2-4ad0-8dd5-d33363129640", PromoId: "daab8f83-8ea2-4ad0-8dd5-d33363129640", EventType: "undefined", EventOrigin: "undefined", Sleep: 20 * time.Second},
+	"INFCT": {AppToken: "eb518c4b-e448-4065-9d33-06f3039f0fcb", PromoId: "eb518c4b-e448-4065-9d33-06f3039f0fcb", EventType: "biker", EventOrigin: "undefined", Sleep: 20 * time.Second},
 }

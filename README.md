@@ -22,6 +22,9 @@
 - Hide Cube (`HIDE`)
 - Count Masters (`COUNT`)
 - Pin Out Master (`PIN`)
+- Factory World (`FCTRY`)
+- Among Water (`WATER`)
+- Infected Frontier (`INFCT`)
 
 ## Использование
 
